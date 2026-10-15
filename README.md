@@ -1,5 +1,7 @@
 # Advanced Artificial Intelligence
 
+[View the course website](https://aligunesgit.github.io/advanced-artificial-intelligence/)
+
 Graduate course · Proposed 12-week curriculum · English teaching materials
 
 Primary textbook: Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola, [Dive into Deep Learning](https://d2l.ai/index.html), online edition 1.0.3 checked on 15 October 2026. The course follows its PyTorch track.
