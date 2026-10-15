@@ -18,7 +18,7 @@ No. A careful reproduction and a well-motivated extension are sufficient. Negati
 
 ## Are all labs graded?
 
-All are learning activities. M1, M3, M5, and M7 have graded individual reports; see the assessment page for weights.
+No. Labs are ungraded learning activities. The only graded components are the midterm exam, final exam, and project.
 
 ## Are the schedule and grading final?
 
@@ -27,3 +27,7 @@ They are proposals. Credits, official dates, institutional rules, and final weig
 ## Which textbook and implementation track do we use?
 
 [Dive into Deep Learning](https://d2l.ai/index.html), using PyTorch. Required sections are listed in each module and in the reading map. Chapters 2–6 are mostly prerequisite review.
+
+## What are the assessment weights?
+
+Weights for the midterm exam, final exam, and project will be announced by the instructor. Sprint A is a formative project milestone; the project receives one grade from the final submission.

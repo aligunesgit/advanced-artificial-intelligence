@@ -16,11 +16,11 @@ Derive the Gaussian posterior mean K_*X(K_XX + sigma_n^2 I)^(-1)y and covariance
 
 Prepare a written derivation before the seminar. State assumptions and dimensions, and identify one case in which the conclusion fails.
 
-## Required lab
+## Practice lab (ungraded)
 
 Fit a GP on small synthetic regression data and compare kernels and noise assumptions. Measure held-out error and predictive interval coverage, including an extrapolation region. Use a declared validation budget for kernel selection; compare with a simple regression baseline.
 
-Submit code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 

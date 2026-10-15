@@ -16,11 +16,11 @@ Derive the skip-gram negative-sampling objective. Explain how masked-token predi
 
 Prepare a written derivation before the seminar. State assumptions and dimensions, and identify one case in which the conclusion fails.
 
-## Required lab
+## Practice lab (ungraded)
 
 Compare a TF-IDF linear baseline with a compact pretrained-embedding classifier on sentiment data. Keep preprocessing and tuning leakage-free. Optional extension: fine-tune a small contextual encoder and report pretraining source, resource use, and test contamination risks.
 
-Submit code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 

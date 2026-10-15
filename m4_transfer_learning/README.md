@@ -16,11 +16,11 @@ For a frozen encoder followed by a linear classifier, derive the trainable param
 
 Prepare a written derivation before the seminar. State assumptions and dimensions, and identify one case in which the conclusion fails.
 
-## Required lab
+## Practice lab (ungraded)
 
 Compare training a small model from scratch, frozen features, and limited fine-tuning on a small image dataset. Use identical splits and account for pretraining data provenance. A CPU-scale substitute may use an instructor-provided small checkpoint; report its origin.
 
-Submit code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 

@@ -15,18 +15,16 @@ Proposed 12-week schedule; calendar dates remain TBD.
 | 9 | [M8](../m8_generative_models/README.md) | Generative Adversarial Learning |
 | 10 | [M9](../m9_reinforcement_learning/README.md) | Sequential Decision Making and Reinforcement Learning |
 | 11 | [M10](../m10_gaussian_processes/README.md) | Gaussian Processes and Uncertainty-Aware Model Selection |
-| 12 | [Sprint B](../sprint_b_final_project/README.md) | Final research defense |
+| 12 | [Sprint B](../sprint_b_final_project/README.md) | Final project submission |
 
 ## Milestones
 
-- Week 1: research question brainstorming; assessed lab M1.
-- Week 3: assessed lab M3.
-- Week 4: select project topic and paper critique reading with the instructor.
-- Week 5: assessed lab M5.
-- Week 6: submit Sprint A proposal and reproduced baseline.
-- Week 8: assessed lab M7.
-- Weeks 7–11: individual paper presentations, scheduled to match module topics.
+- Week 1: research question brainstorming.
+- Week 4: select the project topic with the instructor.
+- Week 6: Sprint A proposal and reproduced baseline; formative feedback.
 - Week 10: project progress review and freeze evaluation protocol.
-- Week 12: final report, reproducibility package, presentation, and individual defense.
+- Week 12: Sprint B final report and reproducibility package.
+- Midterm exam: date, scope, and format to be announced.
+- Final exam: date, scope, and format to be announced.
 
-Content weeks combine derivation, seminar, and lab. Sprint weeks introduce no new lecture material. Submission dates and presentation lengths will be set before teaching begins.
+Content weeks combine derivation, discussion, and ungraded lab practice. Sprint weeks introduce no new lecture material. Sprint A and Sprint B belong to one project assessment. The only graded components are the midterm exam, final exam, and project. Exam dates and the project deadline will be published by the instructor.

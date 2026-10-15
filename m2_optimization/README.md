@@ -16,11 +16,11 @@ Derive momentum and Adam updates, including bias correction. State what optimize
 
 Prepare a written derivation before the seminar. State assumptions and dimensions, and identify one case in which the conclusion fails.
 
-## Required lab
+## Practice lab (ungraded)
 
 Compare SGD, momentum, and Adam on one compact MLP with equal tuning budgets. Compare random search with a simple successive-halving schedule. Keep test data sealed until selection is complete.
 
-Submit code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 

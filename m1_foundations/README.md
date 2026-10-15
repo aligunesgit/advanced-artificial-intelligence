@@ -16,11 +16,11 @@ Derive softmax cross-entropy gradients and explain how validation-based model se
 
 Prepare a written derivation before the seminar. State assumptions and dimensions, and identify one case in which the conclusion fails.
 
-## Required lab
+## Practice lab (ungraded)
 
 Compare softmax regression and an MLP on Fashion-MNIST using fixed splits. Add one regularization ablation, repeat stochastic runs, and report uncertainty and compute.
 
-Submit code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 

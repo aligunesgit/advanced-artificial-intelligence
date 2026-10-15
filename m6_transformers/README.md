@@ -16,11 +16,11 @@ Derive tensor shapes in softmax(QK^T / sqrt(d_k))V and explain the scale factor.
 
 Prepare a written derivation before the seminar. State assumptions and dimensions, and identify one case in which the conclusion fails.
 
-## Required lab
+## Practice lab (ungraded)
 
 Implement a tiny causal Transformer for the M5 corpus. Verify that changing a future token cannot change earlier logits. Compare with the recurrent baseline under a declared parameter and compute budget; ablate positional information.
 
-Submit code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 

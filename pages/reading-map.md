@@ -19,4 +19,4 @@ Review before week 1: chapters 2–6. Optional mathematics support: chapter 22. 
 
 Weeks 6 and 12 are project sprints. Chapters 13 and 21 are optional project resources; large-scale pretraining and multi-GPU execution are not required. Causal inference, symbolic planning, VAE, and diffusion topics from the initial draft are outside this D2L-based core.
 
-The derivations, experiment controls, uncertainty reporting, and critique rubrics in the course briefs are instructor-designed extensions. They should not be attributed to the textbook as verbatim assignments.
+The derivations, experiment controls, uncertainty reporting, and discussion prompts in the course briefs are instructor-designed extensions. They should not be attributed to the textbook as verbatim assignments.

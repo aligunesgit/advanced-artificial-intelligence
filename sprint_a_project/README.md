@@ -1,6 +1,6 @@
 # Project Sprint A
 
-Week 6 · Proposal and baseline reproduction
+Week 6 · Proposal and baseline reproduction · Formative project milestone
 
 1. Define one falsifiable question and a manageable primary reference or algorithm specification.
 2. Implement or reproduce a baseline and establish a reproducible run.
@@ -10,4 +10,4 @@ Week 6 · Proposal and baseline reproduction
 
 A baseline that fails to match a paper is acceptable if the discrepancy is investigated and documented. Obtain feedback on feasibility before expanding the experiment.
 
-See [assessment requirements](../pages/projects.md) for the rubric and report length.
+This milestone supports the single project component and has no separate grade. See [assessment requirements](../pages/projects.md) for submission details.

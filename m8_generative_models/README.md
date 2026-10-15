@@ -16,11 +16,11 @@ Derive the optimal discriminator D*(x) = p_data(x)/(p_data(x)+p_g(x)) for fixed 
 
 Prepare a written derivation before the seminar. State assumptions and dimensions, and identify one case in which the conclusion fails.
 
-## Required lab
+## Practice lab (ungraded)
 
 Train a small GAN on a two-dimensional multimodal synthetic distribution. Compare minimax and non-saturating generator losses across seeds. Plot samples, mode coverage, and learning traces. A small image DCGAN is optional.
 
-Submit code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 
