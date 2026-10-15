@@ -1,0 +1,45 @@
+site_name: Advanced Artificial Intelligence
+repo_url: https://github.com/aligunesgit/advanced-artificial-intelligence
+edit_uri: edit/main/
+docs_dir: .
+site_dir: ../site/advanced-artificial-intelligence
+
+theme:
+  name: material
+  language: en
+  palette:
+    primary: indigo
+  features:
+    - navigation.footer
+    - content.code.copy
+
+plugins:
+  - search
+  - same-dir
+
+markdown_extensions:
+  - admonition
+  - tables
+  - fenced_code
+
+nav:
+  - Home: README.md
+  - Preparation: pages/before.md
+  - "M1 - Deep Learning Foundations and Research Practice": m1_foundations/README.md
+  - "M2 - Optimization and Hyperparameter Search": m2_optimization/README.md
+  - "M3 - Convolutional Architectures and Residual Learning": m3_cnn/README.md
+  - "M4 - Transfer Learning and Computer Vision": m4_transfer_learning/README.md
+  - "M5 - Sequence Models and Recurrent Networks": m5_sequence_models/README.md
+  - "M6 - Attention and Transformer Architectures": m6_transformers/README.md
+  - "M7 - Representation Pretraining and NLP Adaptation": m7_nlp_pretraining/README.md
+  - "M8 - Generative Adversarial Learning": m8_generative_models/README.md
+  - "M9 - Sequential Decision Making and Reinforcement Learning": m9_reinforcement_learning/README.md
+  - "M10 - Gaussian Processes and Uncertainty-Aware Model Selection": m10_gaussian_processes/README.md
+  - Project Sprint A: sprint_a_project/README.md
+  - Project Sprint B: sprint_b_final_project/README.md
+  - Time plan: pages/timeplan.md
+  - D2L reading map: pages/reading-map.md
+  - Projects and assessment: pages/projects.md
+  - FAQ: pages/faq.md
+  - Concept map: pages/overview.md
+  - Slides: pages/slides.md
