@@ -4,7 +4,7 @@ Proposed 12-week schedule; calendar dates remain TBD.
 
 | Week | Session | Focus |
 |---|---|---|
-| 1 | [M1](../m1_foundations/README.md) | Deep Learning Foundations and Research Practice |
+| 1 | [AI introduction](../intro/what-is-ai.md), then [M1](../m1_foundations/README.md) | AI concepts, approaches, engineering applications, current developments; introduction to learning foundations |
 | 2 | [M2](../m2_optimization/README.md) | Optimization and Hyperparameter Search |
 | 3 | [M3](../m3_cnn/README.md) | Convolutional Architectures and Residual Learning |
 | 4 | [M4](../m4_transfer_learning/README.md) | Transfer Learning and Computer Vision |
@@ -16,6 +16,8 @@ Proposed 12-week schedule; calendar dates remain TBD.
 | 10 | [M9](../m9_reinforcement_learning/README.md) | Sequential Decision Making and Reinforcement Learning |
 | 11 | [M10](../m10_gaussian_processes/README.md) | Gaussian Processes and Uncertainty-Aware Model Selection |
 | 12 | [Sprint B](../sprint_b_final_project/README.md) | Final project submission |
+
+The four opening AI pages are the first sequence within Week 1, not four additional weeks. Establish shared concepts before beginning M1; complete its technical preparation and practice after the introduction as needed.
 
 ## Milestones
 

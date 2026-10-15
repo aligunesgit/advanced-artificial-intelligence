@@ -2,11 +2,11 @@
 
 ## Is this an introductory AI course?
 
-No. Undergraduate AI and machine learning are prerequisites. The course emphasizes derivations, critical reading, and controlled experiments.
+The course opens with AI concepts and engineering examples for a shared foundation across departments. It then progresses to graduate technical work with derivations, critical reading, and controlled experiments. Review the Preparation page before the technical modules.
 
 ## Is it exclusively about large language models?
 
-The D2L-based curriculum covers deep learning, computer vision, sequence modeling, attention, pretraining, GANs, reinforcement learning, and Gaussian processes. The course therefore has an explicit learning-centered focus within advanced AI.
+After the introductory AI sequence, the D2L-based technical track covers deep learning, computer vision, sequence modeling, attention, pretraining, GANs, reinforcement learning, and Gaussian processes. The course therefore has an explicit learning-centered focus within advanced AI.
 
 ## Do I need a GPU or paid API?
 

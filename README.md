@@ -1,74 +1,41 @@
-# Advanced Artificial Intelligence
+# Artificial Intelligence
 
-[View the course website](https://aligunesgit.github.io/advanced-artificial-intelligence/)
+Welcome to **Artificial Intelligence**, a graduate course for students from different engineering disciplines. We begin with the ideas behind AI: what it is, which problems it addresses, how its approaches differ, and how engineers assess its results. Mathematical models and deep learning come after this shared introduction.
 
-Graduate course · Proposed 12-week curriculum · English teaching materials
+## What is artificial intelligence?
 
-Primary textbook: Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola, [Dive into Deep Learning](https://d2l.ai/index.html), online edition 1.0.3 checked on 15 October 2026. The course follows its PyTorch track.
+Artificial intelligence is the study and engineering of computational systems that perform tasks involving perception, reasoning, learning, language, planning, or action. An AI system might classify a defect, plan a route, interpret a technical document, or choose an action in a changing environment.
 
-The course title remains Advanced Artificial Intelligence, with a focus on deep learning and selected advanced learning methods. Foundational chapters are prerequisite review; graduate depth comes from derivations, controlled ablations, critical reading, and the research project. The book is used selectively rather than covered in full.
+There is no single technique called “AI.” A system may use explicit rules, search, probability, optimization, machine learning, or a combination. Deep learning is one family of machine learning methods within this broader field. A chatbot is one possible application; AI also includes systems that never produce text.
 
-## Course information
+Consider a maintenance problem. An engineer can write a rule that triggers an inspection when a temperature exceeds a limit. A learned model can estimate failure risk from historical measurements. A planning system can schedule inspections under staff and equipment constraints. Each addresses a different part of the same engineering task.
 
-- Instructor: Ali Gunes; institutional details to be confirmed.
-- Level: graduate (MSc; adaptable for doctoral students).
-- Format: 10 content modules and 2 research project sprint weeks.
-- Suggested weekly contact: 2 hours of lecture/seminar and 2 hours of lab.
-- Suggested independent study: 6–8 hours per week.
-- Credits, official contact hours, semester dates, and institutional assessment rules: TBD.
+## Start here: the introductory sequence
 
-This curriculum follows the folder and navigation structure of the existing MLOps and Software Design and Architecture courses. Duration, workload, and assessment weights are proposals pending instructor approval.
+Read these pages in order before beginning the technical modules. Each page includes examples and a short classroom discussion.
 
-## Prerequisites
-
-Undergraduate AI or equivalent; supervised learning and neural network basics; Python and NumPy; linear algebra, multivariable calculus, probability, and basic optimization. Review the [preparation checklist](pages/before.md) before starting.
-
-## Learning outcomes
-
-By the end of the course students should be able to:
-
-1. Formulate an AI research question with a falsifiable hypothesis and appropriate baselines.
-2. Derive and analyze algorithms for optimization, representation learning, attention, and sequential decisions.
-3. Implement small-scale experiments and evaluate statistical and computational trade-offs.
-4. Critically assess convolutional, recurrent, attention-based, generative, and Gaussian process approaches.
-5. Diagnose leakage, distribution shift, unreliable uncertainty estimates, and unsupported scientific claims.
-6. Produce and defend a reproducible research report with an ablation and a clear account of limitations.
-
-## Course organization
-
-| Week | Module | Topic |
-|---|---|---|
-| 1 | [M1](m1_foundations/README.md) | Deep Learning Foundations and Research Practice |
-| 2 | [M2](m2_optimization/README.md) | Optimization and Hyperparameter Search |
-| 3 | [M3](m3_cnn/README.md) | Convolutional Architectures and Residual Learning |
-| 4 | [M4](m4_transfer_learning/README.md) | Transfer Learning and Computer Vision |
-| 5 | [M5](m5_sequence_models/README.md) | Sequence Models and Recurrent Networks |
-| 7 | [M6](m6_transformers/README.md) | Attention and Transformer Architectures |
-| 8 | [M7](m7_nlp_pretraining/README.md) | Representation Pretraining and NLP Adaptation |
-| 9 | [M8](m8_generative_models/README.md) | Generative Adversarial Learning |
-| 10 | [M9](m9_reinforcement_learning/README.md) | Sequential Decision Making and Reinforcement Learning |
-| 11 | [M10](m10_gaussian_processes/README.md) | Gaussian Processes and Uncertainty-Aware Model Selection |
-| 6 | [Sprint A](sprint_a_project/README.md) | Research proposal and baseline reproduction |
-| 12 | [Sprint B](sprint_b_final_project/README.md) | Final experiments and project submission |
-
-Follow the chronological [time plan](pages/timeplan.md). Each module includes a mathematical task, a required experiment, reading, and seminar questions. These are teaching notes and assignment briefs; full lecture slides and reference solutions are not yet supplied.
-
-## Assessment
-
-| Component | Weight |
+| Page | Guiding question |
 |---|---|
-| Midterm exam | TBD |
-| Final exam | TBD |
-| Project | TBD |
+| 1. [What Is Artificial Intelligence?](intro/what-is-ai.md) | What capabilities and problems belong to AI? |
+| 2. [AI Approaches and Key Concepts](intro/approaches.md) | How do rules, search, learning, and deep learning relate? |
+| 3. [AI Across Engineering](intro/engineering.md) | How do we turn a domain problem into a useful AI task? |
+| 4. [Current Developments in AI](intro/current-developments.md) | What is changing, and how do we assess the evidence? |
 
-These are the only graded components. Weights, exam dates, and exam format will be announced by the instructor. Labs and reading discussions support learning and carry no separate grade. The project includes proposal and baseline development in Sprint A and final submission in Sprint B, assessed as one project component. See [assessment and project requirements](pages/projects.md).
+This opening sequence is part of Week 1. It gives us a common language before [M1: Deep Learning Foundations and Research Practice](m1_foundations/README.md). The [time plan](pages/timeplan.md) shows how the introduction connects to the rest of the course.
 
-## Reading and navigation
+## What will we study next?
 
-- [Dive into Deep Learning](https://d2l.ai/index.html): required primary textbook; assigned sections are linked in every module.
-- [Textbook-to-course reading map](pages/reading-map.md): required sections, review material, and optional extensions.
-- Supplementary primary papers support class discussions and project research.
+The technical track covers optimization, convolutional networks, transfer learning, sequence models, Transformers, language pretraining, generative models, reinforcement learning, and Gaussian processes. We will connect mathematical explanations with manageable experiments and engineering questions.
 
-Textbook prose and code are linked rather than copied. Cite the relevant section and comply with the upstream license when adapting code. Textbook examples are starting points; submitting an unchanged example does not satisfy the experimental assignment.
+Our main technical textbook is [Dive into Deep Learning](https://d2l.ai/index.html), using its PyTorch track. The opening pages provide broader AI context; the [reading map](pages/reading-map.md) identifies the selected textbook sections for the later modules.
 
-See [preparation](pages/before.md), [projects](pages/projects.md), [FAQ](pages/faq.md), [concept map](pages/overview.md), and [slides status](pages/slides.md).
+## Course essentials
+
+- **Instructor:** Ali Gunes.
+- **Level and language:** graduate; English teaching materials.
+- **Assessment:** Midterm exam, Final exam, and Project. Weights and dates will be announced.
+- **Practice:** labs and discussions support learning and have no separate grade.
+
+See the [Course Guide](pages/course-guide.md) for learning outcomes, prerequisites, and the module list; [Preparation](pages/before.md) for review work; and [Projects and Assessment](pages/projects.md) for requirements.
+
+**Begin with [What Is Artificial Intelligence? →](intro/what-is-ai.md)**

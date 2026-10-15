@@ -1,6 +1,6 @@
 # Before the course
 
-This is a research-oriented graduate course. Students should already be comfortable training and evaluating a simple supervised model.
+This is a graduate Artificial Intelligence course for students from different engineering disciplines. Begin with the [AI introductory sequence](../intro/what-is-ai.md), which establishes shared concepts before the technical modules. The checklist below describes preparation for the technical learning track; use it to identify review needs.
 
 ## Preparation checklist
 
@@ -19,4 +19,4 @@ For each content week, complete the reading and derivation before class, discuss
 
 ## D2L preparation and environment
 
-Review D2L chapters 2–6 before class, prioritizing tensors, automatic differentiation, regression, classification, MLPs, and module construction. Use [the official installation instructions](https://d2l.ai/chapter_installation/index.html) and select PyTorch in the book. D2L helper classes can differ from other tutorials; explain any helpers used in your submission. Record the book version or access date, Python version, PyTorch version, and d2l package version when applicable. Verify the selected notebook in your own environment before assigning or running a long experiment; notebook execution has not been validated as part of this curriculum preparation.
+For the technical track, review selected material in D2L chapters 2–6, prioritizing tensors, automatic differentiation, regression, classification, MLPs, and module construction. Use [the official installation instructions](https://d2l.ai/chapter_installation/index.html) and select PyTorch in the book. D2L helper classes can differ from other tutorials; explain any helpers used in your submission. Record the book version or access date, Python version, PyTorch version, and d2l package version when applicable. Verify the selected notebook in your own environment before assigning or running a long experiment; notebook execution has not been validated as part of this curriculum preparation.

@@ -2,6 +2,8 @@
 
 Week 1 · Graduate seminar and research lab
 
+Begin with the [AI introductory sequence](../intro/what-is-ai.md): what AI is, its approaches, engineering applications, and current developments. This module follows that shared introduction and starts the technical learning track.
+
 ## Learning objectives
 
 Analyze generalization; derive backpropagation; construct leakage-resistant baselines.

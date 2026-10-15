@@ -2,7 +2,7 @@
 
 Primary source: [Dive into Deep Learning](https://d2l.ai/index.html), online edition 1.0.3, checked 15 October 2026. Use the PyTorch track. Section numbers refer to this edition; use section titles if the live site changes.
 
-Review before week 1: chapters 2–6. Optional mathematics support: chapter 22. Each module assigns a selection, not an entire chapter unless explicitly stated.
+Start with the [AI introductory sequence](../intro/what-is-ai.md). It provides broader context before the D2L technical track. Review for the technical modules: selected material from chapters 2–6. Optional mathematics support: chapter 22. Each module assigns a selection, not an entire chapter unless explicitly stated.
 
 | Week | Module | Assigned sections and optional extensions |
 |---|---|---|

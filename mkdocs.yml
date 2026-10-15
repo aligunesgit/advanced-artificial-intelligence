@@ -1,4 +1,4 @@
-site_name: Advanced Artificial Intelligence
+site_name: Artificial Intelligence
 site_url: https://aligunesgit.github.io/advanced-artificial-intelligence/
 repo_url: https://github.com/aligunesgit/advanced-artificial-intelligence
 edit_uri: edit/main/
@@ -24,7 +24,13 @@ markdown_extensions:
   - fenced_code
 
 nav:
-  - Home: README.md
+  - Artificial Intelligence: README.md
+  - Introduction to AI:
+      - What Is Artificial Intelligence?: intro/what-is-ai.md
+      - AI Approaches and Key Concepts: intro/approaches.md
+      - AI Across Engineering: intro/engineering.md
+      - Current Developments in AI: intro/current-developments.md
+  - Course Guide: pages/course-guide.md
   - Preparation: pages/before.md
   - "M1 - Deep Learning Foundations and Research Practice": m1_foundations/README.md
   - "M2 - Optimization and Hyperparameter Search": m2_optimization/README.md
