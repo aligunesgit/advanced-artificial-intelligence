@@ -2,7 +2,7 @@
 
 | Section | Core focus |
 |---|---|
-| [AI introduction](../intro/what-is-ai.md) | AI concepts, approaches, engineering applications, and current developments |
+| [AI introduction](../intro/what-is-ai.md) | AI concepts, search, reasoning, data preparation, engineering applications, and modern systems |
 | [M1](../m1_foundations/README.md) | Deep Learning Foundations and Research Practice |
 | [M2](../m2_optimization/README.md) | Optimization and Hyperparameter Search |
 | [M3](../m3_cnn/README.md) | Convolutional Architectures and Residual Learning |

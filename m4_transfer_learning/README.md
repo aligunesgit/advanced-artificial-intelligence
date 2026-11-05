@@ -2,6 +2,20 @@
 
 Week 4 · Graduate seminar and research lab
 
+## Start with the idea: Reusing a trained model
+
+Transfer learning starts from a model trained on another dataset. We can freeze its feature extractor and train a new classifier, or fine-tune some of its existing parameters.
+
+## A concrete example
+
+To classify surface defects with few images, first try a pretrained image encoder with a small classifier. Compare it with training from scratch. Similarity between the original and new data affects how useful the transferred features are.
+
+## Quick check
+
+Which parameters change when the encoder is frozen?
+
+The sections below develop the mathematics and the practice experiment. For every experiment, record the data split, baseline, settings, result, and one limitation.
+
 ## Learning objectives
 
 Design augmentation controls; distinguish frozen-feature and full fine-tuning protocols; analyze domain shift.
@@ -20,13 +34,13 @@ Prepare a written derivation before the seminar. State assumptions and dimension
 
 Compare training a small model from scratch, frozen features, and limited fine-tuning on a small image dataset. Use identical splits and account for pretraining data provenance. A CPU-scale substitute may use an instructor-provided small checkpoint; report its origin.
 
-For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+Prepare runnable code, environment details, one results table or figure, and a 500–800 word explanation. State what the result shows and one limitation. Use a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 
 When can transfer improve sample efficiency while introducing evaluation contamination?
 
-Bring one claim, the evidence supporting it, and one alternative explanation. For paper sessions, identify a missing ablation or an assumption that limits the result.
+Bring one claim, supporting evidence, and one alternative explanation. An **ablation** changes or removes one component to test its contribution.
 
 ## Reading
 

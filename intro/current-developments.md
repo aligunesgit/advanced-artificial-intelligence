@@ -1,47 +1,51 @@
-# 4. Current Developments in AI
+# 6. Modern AI Systems
 
-**Source review: 15 October 2026.** This page provides selected developments and discussion prompts, rather than a model ranking or an exhaustive news feed. Dates below refer to the cited announcements or publications. Revisit the sources as the field changes.
+## The idea
 
-## From isolated predictions to multimodal systems
+An AI application often combines several components. Separate what each component does before deciding how to evaluate the whole system.
 
-A growing area of AI combines information across modalities, such as images, language, audio, and video. The engineering question is how these observations are represented and connected to a useful output. A system that describes an image correctly can still fail at measurement, localization, or action selection.
+## Example: answering a maintenance question
 
-A concrete example is the connection between visual observations, language instructions, and robot actions discussed in Google DeepMind’s [Gemini Robotics 2 announcement, 30 July 2026](https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/). The authors describe whole-body control and manipulation, while reporting continuing difficulty with some dexterous tasks. This is a provider-reported development, not independent evidence of dependable operation in every environment.
+A technician asks, “How should I inspect this pump?” A useful application might follow these steps:
 
-**Engineering question:** what happens under unfamiliar lighting, objects, hardware, or physical disturbances? Later course connections: computer vision, representations, and sequential decision making.
+1. **Retrieve** relevant passages from the correct pump manual.
+2. **Generate** an explanation using a language model and those passages.
+3. **Call a tool** to check available inspection times.
+4. Ask the technician to review the proposed inspection.
 
-## From answering questions to acting through tools
+Retrieval selects existing information. Generation produces an output. Tool use interacts with another system. Each step can fail independently.
 
-Agentic systems can combine a model with tool calls and repeated observation–action steps. Such systems may inspect files, run code, query information, or revise a plan. Success depends on the entire interaction, including tool behavior and the environment, rather than the text of a final answer alone.
+## Generative AI
 
-Anthropic’s [Demystifying evals for AI agents, 9 January 2026](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) discusses evaluating agents through tasks, trials, and grading approaches. It is a developer-authored methodology source, not a guarantee about a particular product.
+Generative models produce text, images, audio, or other outputs. A language model predicts tokens from context; tokens are pieces of text. A **prompt** supplies instructions and context to a model.
 
-**Engineering question:** did the system reach the correct final state, and how often does it succeed across repeated trials? Later course connections: reproducibility, experimental design, and project evaluation.
+A GAN trains a generator alongside a discriminator. A diffusion model learns a denoising process. These are different approaches to generation; [M8](../m8_generative_models/README.md) studies GANs in detail.
 
-## AI as a tool for scientific investigation
+## RAG and agents
 
-AI is also being used to predict scientific quantities and prioritize investigation. Google DeepMind announced [AlphaGenome Atlas on 8 September 2026](https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/), a resource containing predicted molecular effects of single-nucleotide changes. This illustrates the use of learned models to organize a large scientific prediction space.
+**Retrieval-augmented generation (RAG)** supplies retrieved material as context for generation. It can help answer questions about a manual, but a relevant passage does not guarantee a correct answer. Check that the cited passage actually supports the answer.
 
-Predictions are not experimental confirmation or proof of causation. A useful scientific workflow asks which measurements validate a prediction and whether it transfers to the biological context of interest.
+An **agent** selects actions based on observations and a goal. A language-model agent may call a search tool, inspect the result, and choose another action. Define which actions it may take and how completion is checked.
 
-**Engineering question:** can a model help prioritize costly experiments while making its uncertainty and assumptions visible? Later course connections: representations, Gaussian processes, and evaluation.
+## Language, images, and applications
 
-## Reliability and evaluation are part of progress
+**Natural language processing (NLP)** includes tasks such as text classification and translation. **Computer vision** includes image classification, object detection, and segmentation. A **multimodal** system uses more than one type of input or output, such as a photo and a written question.
 
-New capabilities increase the importance of testing data quality, unsupported outputs, privacy, and behavior under changing conditions. NIST’s [Generative AI Profile, published 26 July 2024](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence) provides a cross-sector reference for generative-AI risk management. It is a framework for analysis, not a certification that a system is reliable.
+For a pump photo, classification asks which kind of pump it is; detection locates pumps in the image; segmentation assigns a label to individual pixels.
 
-For this course, translate broad concerns into measurable questions: how often are answers supported by evidence, which groups or operating regimes have higher error, and what changes when the data distribution shifts?
+## How to check the result
 
-## How to read an AI announcement
+For the maintenance assistant, ask four concrete questions:
 
-For each development, separate the claimed capability, the test conditions, the source of the evidence, and the remaining limitation. A provider demonstration, a research paper, an independently reproduced experiment, and field performance supply different kinds of evidence.
+- Did retrieval find the manual for the correct model?
+- Does the answer match the manual, including important conditions?
+- Did the scheduling tool return a valid available time?
+- Did the technician receive a clear proposal they can review?
 
-Ask: compared with what baseline, on which tasks, at what cost, with how many trials, and under which assumptions? Avoid interpreting one benchmark improvement as universal intelligence or universal engineering readiness.
+A polished paragraph does not answer these questions. Measure the behavior needed by the application.
 
-## Discussion and transition to the technical track
+## Try it
 
-Choose one development above. State its contribution in one sentence, identify a limitation, and propose a small experiment that would test a narrower claim. No paid service or hardware purchase is required.
+Design an assistant for your department. Name its inputs, one information source, one possible tool, and one check that demonstrates success.
 
-We now have a map of AI, examples from engineering, and questions for evaluating new systems. The next step is to understand one important family of methods in detail: learning from data. Begin [M1: Deep Learning Foundations and Research Practice](../m1_foundations/README.md), then follow the [D2L reading map](../pages/reading-map.md).
-
-**Previous: [AI Across Engineering](engineering.md) · Next: [Course Guide](../pages/course-guide.md) or [M1 →](../m1_foundations/README.md)**
+**Previous: [AI in engineering](engineering.md) · Next: [M1: Deep learning foundations →](../m1_foundations/README.md)**

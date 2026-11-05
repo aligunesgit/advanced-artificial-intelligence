@@ -28,8 +28,10 @@ nav:
   - Introduction to AI:
       - What Is Artificial Intelligence?: intro/what-is-ai.md
       - AI Approaches and Key Concepts: intro/approaches.md
+      - Search, Reasoning, and Planning: intro/problem-solving.md
+      - Learning from Data: intro/learning-from-data.md
       - AI Across Engineering: intro/engineering.md
-      - Current Developments in AI: intro/current-developments.md
+      - Modern AI Systems: intro/current-developments.md
   - Course Guide: pages/course-guide.md
   - Preparation: pages/before.md
   - "M1 - Deep Learning Foundations and Research Practice": m1_foundations/README.md

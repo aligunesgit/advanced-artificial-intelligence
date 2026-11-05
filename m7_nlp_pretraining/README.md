@@ -2,6 +2,20 @@
 
 Week 8 · Graduate seminar and research lab
 
+## Start with the idea: Reusing language representations
+
+Pretraining learns representations from a broad collection of text. A downstream task then uses or adapts those representations. An embedding represents a token as a vector; a contextual representation also depends on surrounding tokens.
+
+## A concrete example
+
+For review classification, first try TF-IDF features with a linear classifier. Then compare a model using pretrained embeddings. BERT-style masked prediction and causal next-token prediction are different training tasks.
+
+## Quick check
+
+Why does a better result alone fail to tell us whether architecture or pretraining data caused the improvement?
+
+The sections below develop the mathematics and the practice experiment. For every experiment, record the data split, baseline, settings, result, and one limitation.
+
 ## Learning objectives
 
 Compare embedding and contextual pretraining objectives; distinguish pretraining from fine-tuning; evaluate transfer.
@@ -20,13 +34,13 @@ Prepare a written derivation before the seminar. State assumptions and dimension
 
 Compare a TF-IDF linear baseline with a compact pretrained-embedding classifier on sentiment data. Keep preprocessing and tuning leakage-free. Optional extension: fine-tune a small contextual encoder and report pretraining source, resource use, and test contamination risks.
 
-For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+Prepare runnable code, environment details, one results table or figure, and a 500–800 word explanation. State what the result shows and one limitation. Use a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 
 How can one separate gains from pretraining data, architecture, and downstream tuning?
 
-Bring one claim, the evidence supporting it, and one alternative explanation. For paper sessions, identify a missing ablation or an assumption that limits the result.
+Bring one claim, supporting evidence, and one alternative explanation. An **ablation** changes or removes one component to test its contribution.
 
 ## Reading
 

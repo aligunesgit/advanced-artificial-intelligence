@@ -4,6 +4,20 @@ Week 1 · Graduate seminar and research lab
 
 Begin with the [AI introductory sequence](../intro/what-is-ai.md): what AI is, its approaches, engineering applications, and current developments. This module follows that shared introduction and starts the technical learning track.
 
+## Start with the idea: Learning a prediction rule
+
+A neural network turns inputs into a prediction. During training, a loss measures the prediction error, and backpropagation computes how each parameter affects that loss. An optimizer then updates the parameters.
+
+## A concrete example
+
+For a clothing image, the input is a grid of pixel values and the output is a score for each clothing category. A softmax classifier is a simple starting point; a multilayer perceptron (MLP) adds hidden layers.
+
+## Quick check
+
+A model gets 99% training accuracy and 75% validation accuracy. What might explain the gap?
+
+The sections below develop the mathematics and the practice experiment. For every experiment, record the data split, baseline, settings, result, and one limitation.
+
 ## Learning objectives
 
 Analyze generalization; derive backpropagation; construct leakage-resistant baselines.
@@ -22,13 +36,13 @@ Prepare a written derivation before the seminar. State assumptions and dimension
 
 Compare softmax regression and an MLP on Fashion-MNIST using fixed splits. Add one regularization ablation, repeat stochastic runs, and report uncertainty and compute.
 
-For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+Prepare runnable code, environment details, one results table or figure, and a 500–800 word explanation. State what the result shows and one limitation. Use a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 
 Which changes improve generalization rather than merely training fit?
 
-Bring one claim, the evidence supporting it, and one alternative explanation. For paper sessions, identify a missing ablation or an assumption that limits the result.
+Bring one claim, supporting evidence, and one alternative explanation. An **ablation** changes or removes one component to test its contribution.
 
 ## Reading
 

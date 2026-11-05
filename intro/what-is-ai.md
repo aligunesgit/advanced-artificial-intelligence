@@ -1,44 +1,40 @@
 # 1. What Is Artificial Intelligence?
 
-## From an engineering problem to intelligent behavior
+## The idea
 
-Imagine a robot navigating a warehouse. It must estimate where it is, recognize obstacles, select a route, and adapt if an aisle is blocked. These are connected but distinct problems: perception, state estimation, planning, and decision making. Learning from experience may help several of them, but learning is not the only possible mechanism.
+Artificial intelligence (AI) studies how computers can perform tasks such as recognizing objects, finding solutions, learning from examples, and choosing actions.
 
-For this course, we use AI as an umbrella for computational approaches to perception, reasoning, learning, communication, planning, and action. We study the methods and the evidence that a system performs the intended task. This perspective connects with the agent-centered treatment in [Russell and Norvig’s Artificial Intelligence: A Modern Approach](https://aima.cs.berkeley.edu/).
+Consider a robot delivering a package. It needs to detect a wall, find a route around it, and move toward its destination. Recognizing the wall and choosing a route are different tasks. They may use different AI methods.
 
-## The agent–environment view
+## Describe a system in four parts
 
-An **agent** receives observations from an environment and selects actions. Its behavior is assessed against an objective under constraints.
-
-| Element | Warehouse robot example | Predictive maintenance example |
+| Part | Delivery robot | Spam filter |
 |---|---|---|
-| Environment | A warehouse with people and shelves | Machines operating under changing loads |
-| Observations | Camera images, range measurements | Vibration, temperature, current |
-| Action or output | Movement or a route | A risk estimate or inspection recommendation |
-| Objective | Deliver items reliably | Reduce failures and unnecessary inspections |
-| Constraints | Collision avoidance, battery, time | Staff, downtime, sensor availability |
+| Input | Camera image and position | Email text |
+| Task | Deliver a package | Identify unwanted messages |
+| Output | Next movement | Spam or normal |
+| Success measure | Delivery time and collisions | Missed spam and incorrectly blocked messages |
 
-An objective needs careful definition. Maximizing the number of deliveries without accounting for collisions would describe an incomplete engineering goal. Similarly, maximizing classification accuracy may ignore costly missed faults.
+An **agent** observes its surroundings and chooses actions. The robot is an agent; its surroundings are its **environment**. A prediction model can be one component inside an agent.
 
-## Core capabilities
+## AI, machine learning, and deep learning
 
-- **Perception:** extract useful information from observations, such as detecting cracks in an image.
-- **Reasoning:** derive conclusions from information and assumptions, such as checking whether constraints can be satisfied.
-- **Planning:** choose a sequence of actions, such as scheduling repairs.
-- **Learning:** adjust a model or policy using experience or data.
-- **Language:** interpret or generate text and other linguistic signals.
-- **Decision making under uncertainty:** choose an action when information or outcomes are uncertain.
+- **AI** is the broad field. Finding a route with a search algorithm belongs here.
+- **Machine learning (ML)** is part of AI. A model learns patterns from examples, such as emails labeled spam or normal.
+- **Deep learning (DL)** is part of ML. It uses neural networks with multiple layers to learn representations of data.
 
-A working system may combine several capabilities. Strong performance on one benchmark does not establish competence across all of them. Humanlike language alone does not demonstrate reliable planning or physical understanding.
+The relationship is: **AI contains ML; ML contains DL.** An AI system does not always need a neural network.
 
-## Task-specific systems and general intelligence
+## Narrow and general capability
 
-A system can perform a narrow task extremely well without being generally capable. “Artificial general intelligence” refers to broader capability across tasks, but definitions and proposed tests differ. We will make specific, measurable claims about systems rather than infer general intelligence from a single demonstration.
+A spam filter solves a specific task. This is an example of narrow AI. General AI refers to broader ability across tasks; the term has varying definitions. In this course, we describe what a system can do using specific tasks and measurements.
 
-Also distinguish automation from adaptation. A fixed rule can automate a useful task; it need not learn. A learned model can adapt through training, but it still operates under assumptions and may fail when conditions change.
+A model can produce a fluent answer and still give incorrect information. Judge the result against the task, using evidence.
 
-## Classroom discussion
+## Check your understanding
 
-Choose an AI application from your department. Identify its observations, outputs or actions, objective, and constraints. Which capabilities does it need? Which part could be solved with a simple rule or established engineering method?
+1. What are the input and output of a system that detects cracks in concrete?
+2. Could a route-finding program work without learning from data?
+3. Why is accuracy alone insufficient for a delivery robot?
 
-**Next: [AI Approaches and Key Concepts →](approaches.md)**
+**Next: [AI approaches →](approaches.md)**

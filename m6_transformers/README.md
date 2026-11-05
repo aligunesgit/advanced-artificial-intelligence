@@ -2,6 +2,20 @@
 
 Week 7 · Graduate seminar and research lab
 
+## Start with the idea: Connecting relevant parts of a sequence
+
+Attention forms a weighted combination of representations. Queries describe what a position is looking for; keys help determine relevance; values provide the information being combined. A Transformer builds on attention and other layers.
+
+## A concrete example
+
+In “The motor stopped because it overheated,” attention can connect positions across the sentence. Positional information represents order. A causal mask prevents a next-token model from using future positions.
+
+## Quick check
+
+What should happen to an earlier prediction if only a future token changes?
+
+The sections below develop the mathematics and the practice experiment. For every experiment, record the data split, baseline, settings, result, and one limitation.
+
 ## Learning objectives
 
 Derive attention; implement causal masking; compare recurrence and self-attention.
@@ -20,13 +34,13 @@ Prepare a written derivation before the seminar. State assumptions and dimension
 
 Implement a tiny causal Transformer for the M5 corpus. Verify that changing a future token cannot change earlier logits. Compare with the recurrent baseline under a declared parameter and compute budget; ablate positional information.
 
-For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+Prepare runnable code, environment details, one results table or figure, and a 500–800 word explanation. State what the result shows and one limitation. Use a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 
 What can an attention visualization establish about model reasoning?
 
-Bring one claim, the evidence supporting it, and one alternative explanation. For paper sessions, identify a missing ablation or an assumption that limits the result.
+Bring one claim, supporting evidence, and one alternative explanation. An **ablation** changes or removes one component to test its contribution.
 
 ## Reading
 

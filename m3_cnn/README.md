@@ -2,6 +2,20 @@
 
 Week 3 · Graduate seminar and research lab
 
+## Start with the idea: Finding patterns in images
+
+A convolutional neural network (CNN) applies small learned filters across an image. The same filter can detect a useful pattern at different positions. Later layers combine patterns into more complex features.
+
+## A concrete example
+
+A filter may respond to edges; later layers can combine edges into shapes. A residual block adds its input to a learned transformation, giving information and gradients an additional path through the network.
+
+## Quick check
+
+What is shared when one convolutional filter moves across an image?
+
+The sections below develop the mathematics and the practice experiment. For every experiment, record the data split, baseline, settings, result, and one limitation.
+
 ## Learning objectives
 
 Analyze convolution shapes and receptive fields; explain residual learning; design architecture ablations.
@@ -20,13 +34,13 @@ Prepare a written derivation before the seminar. State assumptions and dimension
 
 Compare a compact plain CNN and a residual CNN on the same image split. Match parameter counts approximately and disclose remaining differences. Ablate normalization or skip connections and report accuracy, runtime, and learning curves.
 
-For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+Prepare runnable code, environment details, one results table or figure, and a 500–800 word explanation. State what the result shows and one limitation. Use a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 
 Does a deeper model improve because of capacity, optimization, or a larger training budget?
 
-Bring one claim, the evidence supporting it, and one alternative explanation. For paper sessions, identify a missing ablation or an assumption that limits the result.
+Bring one claim, supporting evidence, and one alternative explanation. An **ablation** changes or removes one component to test its contribution.
 
 ## Reading
 

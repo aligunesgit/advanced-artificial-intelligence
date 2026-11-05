@@ -4,7 +4,7 @@ Proposed 12-week schedule; calendar dates remain TBD.
 
 | Week | Session | Focus |
 |---|---|---|
-| 1 | [AI introduction](../intro/what-is-ai.md), then [M1](../m1_foundations/README.md) | AI concepts, approaches, engineering applications, current developments; introduction to learning foundations |
+| 1 | [AI introduction](../intro/what-is-ai.md), then [M1](../m1_foundations/README.md) | AI concepts, search and reasoning, data preparation, engineering examples, modern AI systems; learning foundations |
 | 2 | [M2](../m2_optimization/README.md) | Optimization and Hyperparameter Search |
 | 3 | [M3](../m3_cnn/README.md) | Convolutional Architectures and Residual Learning |
 | 4 | [M4](../m4_transfer_learning/README.md) | Transfer Learning and Computer Vision |

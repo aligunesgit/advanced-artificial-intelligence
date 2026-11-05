@@ -2,6 +2,20 @@
 
 Week 10 · Graduate seminar and research lab
 
+## Start with the idea: Learning which action to take
+
+In reinforcement learning, an agent observes a state, takes an action, and receives a reward. A policy tells it how to act. A value estimates expected future reward, so an action can matter beyond its immediate result.
+
+## A concrete example
+
+In a small grid, a robot tries to reach a goal. A movement cost discourages long routes. Exploration tries unfamiliar actions; exploitation uses what the agent currently believes works best.
+
+## Quick check
+
+Why should evaluation separate exploratory training behavior from the learned policy?
+
+The sections below develop the mathematics and the practice experiment. For every experiment, record the data split, baseline, settings, result, and one limitation.
+
 ## Learning objectives
 
 Derive Bellman equations; compare planning and learning; evaluate exploration across seeds.
@@ -20,13 +34,13 @@ Prepare a written derivation before the seminar. State assumptions and dimension
 
 Implement value iteration and Q-learning on the same small finite MDP. Compare returns against an optimal reference across at least five seeds. Separate exploration during training from policy evaluation and ablate an exploration schedule.
 
-For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+Prepare runnable code, environment details, one results table or figure, and a 500–800 word explanation. State what the result shows and one limitation. Use a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 
 How can a reward-maximizing policy fail to satisfy the intended task?
 
-Bring one claim, the evidence supporting it, and one alternative explanation. For paper sessions, identify a missing ablation or an assumption that limits the result.
+Bring one claim, supporting evidence, and one alternative explanation. An **ablation** changes or removes one component to test its contribution.
 
 ## Reading
 

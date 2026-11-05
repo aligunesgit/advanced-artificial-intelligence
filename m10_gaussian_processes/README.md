@@ -2,6 +2,20 @@
 
 Week 11 · Graduate seminar and research lab
 
+## Start with the idea: Predicting with uncertainty
+
+Gaussian process (GP) regression predicts a numerical value and represents uncertainty under a chosen model. A kernel describes how function values at different inputs are related. Observations update the prior to a posterior.
+
+## A concrete example
+
+Suppose a material property has been measured at a few temperatures. A GP predicts between those measurements. Predictions outside the measured region depend strongly on the kernel and noise assumptions.
+
+## Quick check
+
+Why can a narrow predictive interval still be misleading if the model assumptions are wrong?
+
+The sections below develop the mathematics and the practice experiment. For every experiment, record the data split, baseline, settings, result, and one limitation.
+
 ## Learning objectives
 
 Derive GP posterior predictions; distinguish uncertainty sources; evaluate calibration and selection cost.
@@ -20,13 +34,13 @@ Prepare a written derivation before the seminar. State assumptions and dimension
 
 Fit a GP on small synthetic regression data and compare kernels and noise assumptions. Measure held-out error and predictive interval coverage, including an extrapolation region. Use a declared validation budget for kernel selection; compare with a simple regression baseline.
 
-For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+Prepare runnable code, environment details, one results table or figure, and a 500–800 word explanation. State what the result shows and one limitation. Use a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 
 Why can credible intervals be narrow yet unreliable under model misspecification?
 
-Bring one claim, the evidence supporting it, and one alternative explanation. For paper sessions, identify a missing ablation or an assumption that limits the result.
+Bring one claim, supporting evidence, and one alternative explanation. An **ablation** changes or removes one component to test its contribution.
 
 ## Reading
 

@@ -2,6 +2,20 @@
 
 Week 9 · Graduate seminar and research lab
 
+## Start with the idea: Generating new examples
+
+A generative adversarial network (GAN) has two models. The generator transforms random inputs into samples. The discriminator learns to distinguish generated samples from real examples; its feedback helps train the generator.
+
+## A concrete example
+
+Use data with three clusters in a two-dimensional plane. Generated points should cover all three clusters. If they cover only one, the generator has missed important variation, even if those points look realistic.
+
+## Quick check
+
+Can realistic individual samples still give poor coverage of the data?
+
+The sections below develop the mathematics and the practice experiment. For every experiment, record the data split, baseline, settings, result, and one limitation.
+
 ## Learning objectives
 
 Analyze the adversarial objective; diagnose instability; assess sample diversity and coverage.
@@ -20,13 +34,13 @@ Prepare a written derivation before the seminar. State assumptions and dimension
 
 Train a small GAN on a two-dimensional multimodal synthetic distribution. Compare minimax and non-saturating generator losses across seeds. Plot samples, mode coverage, and learning traces. A small image DCGAN is optional.
 
-For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+Prepare runnable code, environment details, one results table or figure, and a 500–800 word explanation. State what the result shows and one limitation. Use a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 
 Can visually convincing samples coexist with severe mode collapse?
 
-Bring one claim, the evidence supporting it, and one alternative explanation. For paper sessions, identify a missing ablation or an assumption that limits the result.
+Bring one claim, supporting evidence, and one alternative explanation. An **ablation** changes or removes one component to test its contribution.
 
 ## Reading
 

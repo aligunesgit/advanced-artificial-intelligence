@@ -2,32 +2,24 @@
 
 Welcome to **Artificial Intelligence**, a graduate course for students from different engineering disciplines. We begin with the ideas behind AI: what it is, which problems it addresses, how its approaches differ, and how engineers assess its results. Mathematical models and deep learning come after this shared introduction.
 
-## What is artificial intelligence?
+## What will you learn?
 
-Artificial intelligence is the study and engineering of computational systems that perform tasks involving perception, reasoning, learning, language, planning, or action. An AI system might classify a defect, plan a route, interpret a technical document, or choose an action in a changing environment.
+Start with a practical question: how can a computer find a route, recognize a fault, or understand a message? Different problems need different methods. We first learn how to describe a problem, then choose a method and check its results.
 
-There is no single technique called “AI.” A system may use explicit rules, search, probability, optimization, machine learning, or a combination. Deep learning is one family of machine learning methods within this broader field. A chatbot is one possible application; AI also includes systems that never produce text.
+## Start here
 
-Consider a maintenance problem. An engineer can write a rule that triggers an inspection when a temperature exceeds a limit. A learned model can estimate failure risk from historical measurements. A planning system can schedule inspections under staff and equipment constraints. Each addresses a different part of the same engineering task.
+| Step | Read | Main question |
+|---|---|---|
+| 1 | [What is AI?](intro/what-is-ai.md) | What does an AI system do? |
+| 2 | [AI approaches](intro/approaches.md) | When do we use rules, search, or learning? |
+| 3 | [Search, reasoning, and planning](intro/problem-solving.md) | How do we find a valid solution? |
+| 4 | [Learning from data](intro/learning-from-data.md) | How do we train and test a model? |
+| 5 | [AI in engineering](intro/engineering.md) | How do we turn an idea into a clear task? |
+| 6 | [Modern AI systems](intro/current-developments.md) | How do generation, retrieval, and tools fit together? |
 
-## Start here: the introductory sequence
+Each lesson starts with an idea and an example. Read those before attempting the mathematical work. The technical modules then develop neural networks, images, sequences, Transformers, language models, generation, reinforcement learning, and uncertainty.
 
-Read these pages in order before beginning the technical modules. Each page includes examples and a short classroom discussion.
-
-| Page | Guiding question |
-|---|---|
-| 1. [What Is Artificial Intelligence?](intro/what-is-ai.md) | What capabilities and problems belong to AI? |
-| 2. [AI Approaches and Key Concepts](intro/approaches.md) | How do rules, search, learning, and deep learning relate? |
-| 3. [AI Across Engineering](intro/engineering.md) | How do we turn a domain problem into a useful AI task? |
-| 4. [Current Developments in AI](intro/current-developments.md) | What is changing, and how do we assess the evidence? |
-
-This opening sequence is part of Week 1. It gives us a common language before [M1: Deep Learning Foundations and Research Practice](m1_foundations/README.md). The [time plan](pages/timeplan.md) shows how the introduction connects to the rest of the course.
-
-## What will we study next?
-
-The technical track covers optimization, convolutional networks, transfer learning, sequence models, Transformers, language pretraining, generative models, reinforcement learning, and Gaussian processes. We will connect mathematical explanations with manageable experiments and engineering questions.
-
-Our main technical textbook is [Dive into Deep Learning](https://d2l.ai/index.html), using its PyTorch track. The opening pages provide broader AI context; the [reading map](pages/reading-map.md) identifies the selected textbook sections for the later modules.
+The introductory topic order is informed by the [GeeksforGeeks AI tutorial](https://www.geeksforgeeks.org/artificial-intelligence/artificial-intelligence/). These notes use original explanations and classroom examples. [Dive into Deep Learning](https://d2l.ai/index.html) remains the technical textbook; see the [reading map](pages/reading-map.md).
 
 ## Course essentials
 

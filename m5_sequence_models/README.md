@@ -2,6 +2,20 @@
 
 Week 5 · Graduate seminar and research lab
 
+## Start with the idea: Learning from ordered data
+
+In a sequence, order matters. A recurrent neural network (RNN) processes items in order and updates a hidden state that carries information from earlier items. GRU and LSTM models use gates to control this information.
+
+## A concrete example
+
+A next-character model reads “engin” and predicts what might follow. During prediction it must use only the available prefix. Future characters belong to the answer, not the input.
+
+## Quick check
+
+Why would using future tokens make a next-token evaluation misleading?
+
+The sections below develop the mathematics and the practice experiment. For every experiment, record the data split, baseline, settings, result, and one limitation.
+
 ## Learning objectives
 
 Derive backpropagation through time; compare recurrent gates; evaluate sequence models without temporal leakage.
@@ -20,13 +34,13 @@ Prepare a written derivation before the seminar. State assumptions and dimension
 
 Compare a compact RNN and GRU on a public-domain text corpus with a contiguous held-out segment. Fix vocabulary and context construction using training data. Measure held-out perplexity and runtime and ablate gradient clipping.
 
-For practice and feedback, prepare code, an environment specification, a reproducible run command, a results table or figure, and a 500–800 word analysis. Explain limitations and distinguish observations from proposed explanations. Work within a declared compute budget; a CPU-scale experiment is sufficient.
+Prepare runnable code, environment details, one results table or figure, and a 500–800 word explanation. State what the result shows and one limitation. Use a declared compute budget; a CPU-scale experiment is sufficient.
 
 ## Seminar discussion
 
 Does lower perplexity imply useful long-range dependence?
 
-Bring one claim, the evidence supporting it, and one alternative explanation. For paper sessions, identify a missing ablation or an assumption that limits the result.
+Bring one claim, supporting evidence, and one alternative explanation. An **ablation** changes or removes one component to test its contribution.
 
 ## Reading
 

@@ -6,7 +6,7 @@ Graduate course · Proposed 12-week curriculum · English teaching materials
 
 Primary textbook: Aston Zhang, Zachary C. Lipton, Mu Li, and Alexander J. Smola, [Dive into Deep Learning](https://d2l.ai/index.html), online edition 1.0.3 checked on 15 October 2026. The course follows its PyTorch track.
 
-The course begins with an introduction to AI, its approaches, engineering applications, and current developments. It then develops a technical learning track using selected D2L sections. Graduate depth comes from derivations, controlled experiments, critical reading, and the research project.
+The course begins with short lessons on AI, search, reasoning, data preparation, engineering applications, and modern AI systems. Each technical module starts with an explanation, a concrete example, and a quick check before its mathematical work. It then develops a technical learning track using selected D2L sections. Graduate depth comes from derivations, controlled experiments, critical reading, and the research project.
 
 ## Course information
 
@@ -38,7 +38,7 @@ By the end of the course students should be able to:
 
 | Week | Module | Topic |
 |---|---|---|
-| 1, opening | [Introduction](../intro/what-is-ai.md) | AI concepts, approaches, engineering applications, and current developments |
+| 1, opening | [Introduction](../intro/what-is-ai.md) | AI concepts, search, reasoning, learning from data, engineering applications, and modern systems |
 | 1, after introduction | [M1](../m1_foundations/README.md) | Deep Learning Foundations and Research Practice |
 | 2 | [M2](../m2_optimization/README.md) | Optimization and Hyperparameter Search |
 | 3 | [M3](../m3_cnn/README.md) | Convolutional Architectures and Residual Learning |
